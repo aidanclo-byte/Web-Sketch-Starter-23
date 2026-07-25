@@ -334,7 +334,8 @@ push()
     fill(255, 235);
     stroke(0);
     strokeWeight(2);
-    rect(20, 400, width - 40, 120, 15);
+    fill(255, 0, 0);
+    rect(50, 50, 200, 200);
     noStroke();
     fill(0);
     textSize(18);
