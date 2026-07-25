@@ -334,7 +334,7 @@ push()
     fill(255, 235);
     stroke(0);
     strokeWeight(2);
-    rect(20, height-580, width-40, 120, 15);
+    rect(20, height - 140, width - 40, 120, 15);
     noStroke();
     fill(0);
     textSize(18);
@@ -342,7 +342,7 @@ push()
     text(
         currentDialogue[dialogueIndex],
         40,
-        height-570,
+       height - 130, 
         width-80
     );
 pop()
